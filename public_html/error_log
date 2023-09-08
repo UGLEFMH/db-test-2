@@ -1,0 +1,28 @@
+[07-Sep-2023 09:05:38 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dbtest02/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dbtest02/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/dbtest02/public_html/index.php on line 34
+[07-Sep-2023 09:05:47 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dbtest02/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dbtest02/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/dbtest02/public_html/index.php on line 34
+[07-Sep-2023 14:59:34 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dbtest02/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dbtest02/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/dbtest02/public_html/index.php on line 34
+[07-Sep-2023 14:59:35 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dbtest02/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dbtest02/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/dbtest02/public_html/index.php on line 34
+[07-Sep-2023 15:52:00 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dbtest02/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dbtest02/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/dbtest02/public_html/index.php on line 34
+[07-Sep-2023 15:59:29 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dbtest02/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dbtest02/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/dbtest02/public_html/index.php on line 34
+[07-Sep-2023 16:11:22 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dbtest02/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dbtest02/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/dbtest02/public_html/index.php on line 34
