@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MembershipStatsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/memberships-download-csv', [MembershipStatsController::class, 'downloadCSV'])->name('memberships-download-csv');
