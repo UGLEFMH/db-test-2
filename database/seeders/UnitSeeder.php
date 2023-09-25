@@ -34,6 +34,10 @@ class UnitSeeder extends Seeder
         $hantsiowRegionId = (Region::where('name', RegionSeeder::HANTSIOW_REGION_NAME)->first())->id;
         $hantsiowCsvPath = 'csvs/hantsiow_current_memberships.csv';
         $this->processUnitsImportFromCsv($lodgeUnitTypeId, $hantsiowRegionId, $hantsiowCsvPath);
+
+        $metropolitanRegionId = (Region::where('name', RegionSeeder::METROPOLITAN_REGION_NAME)->first())->id;
+        $metropolitanCsvPath = 'csvs/metropolitan_current_memberships.csv';
+        $this->processUnitsImportFromCsv($lodgeUnitTypeId, $metropolitanRegionId, $metropolitanCsvPath);
     }
 
     /**

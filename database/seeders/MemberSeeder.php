@@ -35,6 +35,10 @@ class MemberSeeder extends Seeder
         $hantsiowOrgId = (Region::where('name', RegionSeeder::HANTSIOW_REGION_NAME)->first())->org_id;
         $hantsiowCsvPath = 'csvs/hantsiow_current_memberships.csv';
         $this->processMembersImportFromCsv($hantsiowOrgId, $hantsiowCsvPath);
+
+        $metropolitanOrgId = (Region::where('name', RegionSeeder::METROPOLITAN_REGION_NAME)->first())->org_id;
+        $metropolitanCsvPath = 'csvs/metropolitan_current_memberships.csv';
+        $this->processMembersImportFromCsv($metropolitanOrgId, $metropolitanCsvPath);
     }
 
     /**
