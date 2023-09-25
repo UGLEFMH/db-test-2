@@ -39,6 +39,9 @@ class MembershipSeeder extends Seeder
         $hantsiowCsvPath = 'csvs/hantsiow_current_memberships.csv';
         $this->processMembershipsImportFromCsv($hantsiowCsvPath);
 
+        $metropolitanCsvPath = 'csvs/metropolitan_current_memberships.csv';
+        $this->processMembershipsImportFromCsv($metropolitanCsvPath);
+
         DB::statement('SET FOREIGN_KEY_CHECKS=1;');
     }
 

@@ -19,6 +19,7 @@ class RegionSeeder extends Seeder
     const BUCKS_REGION_NAME = 'PGL Bucks.';
     const ESSEX_REGION_NAME = 'PGL Essex';
     const HANTSIOW_REGION_NAME = 'PGL Hants. & I. of W.';
+    const METROPOLITAN_REGION_NAME = 'METROPOLITAN';
 
     /**
      * Run the database seeds.
@@ -68,6 +69,14 @@ class RegionSeeder extends Seeder
 
         Region::updateOrInsert(
             ['name' => self::HANTSIOW_REGION_NAME],
+            [
+                'org_id' => $ugleOrg->id,
+                'region_type_id' => $provinceRegionType->id
+            ]
+        );
+
+        Region::updateOrInsert(
+            ['name' => self::METROPOLITAN_REGION_NAME],
             [
                 'org_id' => $ugleOrg->id,
                 'region_type_id' => $provinceRegionType->id
